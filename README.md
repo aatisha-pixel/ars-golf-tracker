@@ -72,6 +72,12 @@ The club chart recomputes average carry and average total distance across all im
 
 Finishing a round now requires a quick review before it can be saved: swing rating, putting rating, biggest reason for the score, and optional thoughts. Review answers are stored inside the structured round record and included in JSON backups, CSV exports, copied ChatGPT summaries, Coach’s Corner, and perception-vs-performance analytics.
 
+## Nine-hole and unfinished rounds
+
+Choose **Full 18**, **Front 9**, **Back 9**, or **Custom / unfinished** before beginning. Front and Back 9 rounds finish automatically after nine holes. A custom round includes a **Finish after this hole** button.
+
+Only holes actually played are saved. Nine-hole scores have their own average and never affect the 18-hole scoring average; their individual holes still contribute to fairway, GIR, putting, strategy, and per-hole analysis.
+
 ## Development Backlog
 
 Tap **+ Idea** in the app header at any time. Type an idea or use iPhone keyboard dictation, assign High/Medium/Low priority, and move it through Idea, Planned, and Done. **Copy issue** creates a GitHub-ready issue draft. Backlog data uses separate browser storage from golf data and has its own JSON export.
