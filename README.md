@@ -67,3 +67,11 @@ While a round is open, scroll below the hole controls and tap **Cancel this roun
 Open the **Range** tab and tap **Upload simulator Excel**. Select one or more `.xlsx` files exported by the simulator, confirm the inferred club name, and the app will save every shot locally.
 
 The club chart recomputes average carry and average total distance across all imported sessions. Workbook summary rows such as Average and Max are ignored so sessions are not double-counted. Range sessions are included in the normal JSON backup.
+
+## Post Round Review
+
+Finishing a round now requires a quick review before it can be saved: swing rating, putting rating, biggest reason for the score, and optional thoughts. Review answers are stored inside the structured round record and included in JSON backups, CSV exports, copied ChatGPT summaries, Coach’s Corner, and perception-vs-performance analytics.
+
+## Development Backlog
+
+Tap **+ Idea** in the app header at any time. Type an idea or use iPhone keyboard dictation, assign High/Medium/Low priority, and move it through Idea, Planned, and Done. **Copy issue** creates a GitHub-ready issue draft. Backlog data uses separate browser storage from golf data and has its own JSON export.
