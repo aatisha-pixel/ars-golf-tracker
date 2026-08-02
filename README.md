@@ -53,3 +53,11 @@ Open **Rounds**, tap the round you want, then tap **Copy ChatGPT Summary**. Open
 ## Cancel a practice or accidental round
 
 While a round is open, scroll below the hole controls and tap **Cancel this round**. Confirm the warning to discard the unfinished round. Saved rounds are not affected.
+
+## Advanced round intelligence
+
+- Mark any hole as modified and choose Construction, Temporary Green, Temporary Tee, Shortened, Lengthened, or Other.
+- Modified holes always count toward the round total. Long-term hole and shot analysis excludes them by default; use the toggle at the top of **Stats** to include them.
+- Record tee club, detailed tee-shot result, penalty type, weather, wind, and course conditions.
+- **Coach’s Corner** provides rules-based takeaways at round completion and on the Stats screen. Its recommendations improve as more detailed rounds are recorded.
+- Backups use a structured, versioned round object with `conditions` and per-hole records, making future database/cloud migration straightforward.
