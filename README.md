@@ -61,3 +61,9 @@ While a round is open, scroll below the hole controls and tap **Cancel this roun
 - Record tee club, detailed tee-shot result, penalty type, weather, wind, and course conditions.
 - **Coach’s Corner** provides rules-based takeaways at round completion and on the Stats screen. Its recommendations improve as more detailed rounds are recorded.
 - Backups use a structured, versioned round object with `conditions` and per-hole records, making future database/cloud migration straightforward.
+
+## Tier 7 Practice Mode
+
+Open the **Range** tab and tap **Upload simulator Excel**. Select one or more `.xlsx` files exported by the simulator, confirm the inferred club name, and the app will save every shot locally.
+
+The club chart recomputes average carry and average total distance across all imported sessions. Workbook summary rows such as Average and Max are ignored so sessions are not double-counted. Range sessions are included in the normal JSON backup.

@@ -14,12 +14,14 @@
     <section id="dashboard" class="view active"></section>
     <section id="play" class="view"></section>
     <section id="rounds" class="view"></section>
+    <section id="practice" class="view"></section>
     <section id="analytics" class="view"></section>
     <section id="settings" class="view"></section>
   </main>
-  <nav aria-label="Primary"><button data-view="dashboard" class="active"><span>⌂</span>Home</button><button data-view="play"><span>＋</span>Play</button><button data-view="rounds"><span>▤</span>Rounds</button><button data-view="analytics"><span>↗</span>Stats</button><button data-view="settings"><span>⚙</span>More</button></nav>
+  <nav aria-label="Primary"><button data-view="dashboard" class="active"><span>⌂</span>Home</button><button data-view="play"><span>＋</span>Play</button><button data-view="rounds"><span>▤</span>Rounds</button><button data-view="practice"><span>◎</span>Range</button><button data-view="analytics"><span>↗</span>Stats</button><button data-view="settings"><span>⚙</span>More</button></nav>
   <dialog id="modal"><form method="dialog"><button class="close" aria-label="Close">×</button><div id="modalBody"></div></form></dialog>
   <input id="importFile" type="file" accept="application/json" hidden>
+  <input id="practiceFile" type="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" multiple hidden>
   <div id="toast" role="status"></div>
   <script src="./app.js"></script>
 </body></html>
