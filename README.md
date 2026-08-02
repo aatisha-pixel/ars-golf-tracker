@@ -45,3 +45,11 @@ Open the published site in Safari, tap **Share**, then **Add to Home Screen**. L
 - Import replaces the current local dataset after confirmation.
 - Summary-only historical rounds contribute to scoring, front-nine, and back-nine averages, but not to fairway, GIR, putt, or per-hole analytics.
 - Holes 2, 3, and 8 are marked as construction-shortened for historical interpretation.
+
+## Copy a round to ChatGPT
+
+Open **Rounds**, tap the round you want, then tap **Copy ChatGPT Summary**. Open your pinned golf-scores chat and paste the copied summary into the message box.
+
+## Cancel a practice or accidental round
+
+While a round is open, scroll below the hole controls and tap **Cancel this round**. Confirm the warning to discard the unfinished round. Saved rounds are not affected.
