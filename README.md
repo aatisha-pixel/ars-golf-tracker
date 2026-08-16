@@ -44,7 +44,7 @@ Open the published site in Safari, tap **Share**, then **Add to Home Screen**. L
 - Browser storage is device- and browser-specific. Use **More → Export JSON backup** regularly.
 - Import replaces the current local dataset after confirmation.
 - Summary-only historical rounds contribute to scoring, front-nine, and back-nine averages, but not to fairway, GIR, putt, or per-hole analytics.
-- Holes 2, 3, and 8 are marked as construction-shortened for historical interpretation.
+- Historical rounds retain the modified-hole flags saved with them. Every newly started round begins with all holes unmodified; mark only the specific holes that differ that day.
 
 ## Copy a round to ChatGPT
 
